@@ -3,12 +3,10 @@ echo "Enter Title"
 read Title
 echo "Enter Author"
 read Author
-#how to know page number and stoping utility
 echo "Beginning Page 1 enter subtitle :"
 read PageSubtitle1
 echo "Page1info:"
 read Page1info
-#make it 8 pages
 echo "page2 "
 echo "page 2 subtitle"
 read page2subtitle
@@ -50,7 +48,6 @@ echo "sources"
 read sources
 touch $Title.ms
 touch $Title-Words.txt
-#add images
 echo ".TL
 $Title
 .AU
